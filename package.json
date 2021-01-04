@@ -37,7 +37,7 @@
     "stage": "REACT_APP_PROFILE=stage craco start",
     "build": "REACT_APP_PROFILE=${REACT_APP_PROFILE} craco build",
     "test": "craco test",
-    "test-ci": "CI=true craco test",
+    "test:ci": "CI=true craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
